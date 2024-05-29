@@ -1,0 +1,34 @@
+MESA-INTEL: warning: Haswell Vulkan support is incomplete
+[90m[main 2024-05-06T08:30:20.277Z][0m update#setState disabled
+[90m[main 2024-05-06T08:30:20.299Z][0m update#ctor - updates are disabled as there is no update URL
+[91m[main 2024-05-06T08:30:20.401Z][0m [storage state.vscdb] error checking size of src.vs.platform.reactivestorage.browser.reactiveStorageServiceImpl.persistentStorage.workspaceUser: Error: Unexpected number of rows - 0
+[91m[main 2024-05-06T08:30:20.401Z][0m [storage state.vscdb] error checking size of workbench.panel.aichat.view.aichat.chatdata: Error: Unexpected number of rows - 0
+[91m[main 2024-05-06T08:30:20.401Z][0m [storage state.vscdb] error checking size of workbench.panel.aichat.view.aichat.chatdata: Error: Unexpected number of rows - 0
+[91m[main 2024-05-06T08:30:20.443Z][0m [uncaught exception in main]: Error: SQLITE_CANTOPEN: unable to open database file
+[91m[main 2024-05-06T08:30:20.443Z][0m Error: SQLITE_CANTOPEN: unable to open database file
+[163862:0506/113022.330850:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 1 times!
+[163862:0506/113027.275071:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 2 times!
+[163862:0506/113029.159768:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 3 times!
+Warning: terminator_CreateInstance: Failed to CreateInstance in ICD 1.  Skipping ICD.
+MESA-INTEL: warning: Haswell Vulkan support is incomplete
+[91m[main 2024-05-06T12:31:30.176Z][0m [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+[91m[main 2024-05-06T12:31:30.178Z][0m [UtilityProcess id: 1, type: fileWatcher, pid: 164150]: crashed with code 15 and reason 'killed'
+[90m[main 2024-05-06T12:31:30.229Z][0m Extension host with pid 164160 exited with code: 0, signal: unknown.
+[91m[main 2024-05-06T12:31:31.229Z][0m Extension host with pid 164160 still exists, forcefully killing it...
+Opening in existing browser session.
+[163820:0507/052329.767710:FATAL:bus.cc(1246)] D-Bus connection was disconnected. Aborting.
+
+(cursor:163820): GVFS-RemoteVolumeMonitor-WARNING **: 05:23:29.827: Owner of volume monitor org.gtk.vfs.UDisks2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+(cursor:163820): GVFS-RemoteVolumeMonitor-WARNING **: 05:23:29.828: Owner of volume monitor org.gtk.vfs.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+(cursor:163820): GVFS-RemoteVolumeMonitor-WARNING **: 05:23:29.828: Owner of volume monitor org.gtk.vfs.GoaVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+(cursor:163820): GVFS-RemoteVolumeMonitor-WARNING **: 05:23:29.828: Owner of volume monitor org.gtk.vfs.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+(cursor:163820): GVFS-RemoteVolumeMonitor-WARNING **: 05:23:29.828: Owner of volume monitor org.gtk.vfs.MTPVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+(cursor:163820): GLib-GIO-CRITICAL **: 05:23:29.848: Error while sending AddMatch() message: The connection is closed
+[0507/052330.050626:ERROR:elf_dynamic_array_reader.h(64)] tag not found
+[0507/052330.052876:ERROR:elf_dynamic_array_reader.h(64)] tag not found
+[0507/052330.178198:ERROR:process_memory_linux.cc(49)] pread64: Input/output error (5)
