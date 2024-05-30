@@ -11,11 +11,9 @@ from llama_index.core import PromptTemplate
 
 import streamlit as st
 import os
-import dotenv
 
-envarb = dotenv.dotenv_values()
-print(envarb)
-OPENAI_API_KEY=envarb["OPENAI_API_KEY"]
+OPENAI_API_KEY=st.secrets.OPENAI_API_KEY
+LLAMA_INDEX_API=st.secrets.LLAMA_INDEX_API
 
 import pandas as pd
 
