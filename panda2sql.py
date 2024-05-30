@@ -13,8 +13,9 @@ import streamlit as st
 import os
 import dotenv
 
-enviroments = dotenv.load_dotenv()
-OPENAI_API_KEY=enviroments["OPENAI_API_KEY"]
+envarb = dotenv.dotenv_values()
+print(envarb)
+OPENAI_API_KEY=envarb["OPENAI_API_KEY"]
 
 import pandas as pd
 
