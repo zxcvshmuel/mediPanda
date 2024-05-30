@@ -11,6 +11,10 @@ from llama_index.core import PromptTemplate
 
 import streamlit as st
 import os
+import dotenv
+
+enviroments = dotenv.load_dotenv()
+OPENAI_API_KEY=enviroments["OPENAI_API_KEY"]
 
 import pandas as pd
 
@@ -71,8 +75,8 @@ pandas_prompt = PromptTemplate(pandas_prompt_str).partial_format(
 )
 pandas_output_parser = PandasInstructionParser(df)
 response_synthesis_prompt = PromptTemplate(response_synthesis_prompt_str)
-llm = OpenAI(model="gpt-3.5-turbo", api_key=os.environ["OPENAI_API_KEY"])
-# llm = OpenAI(model="gpt-4-turbo", api_key=os.environ["OPENAI_API_KEY"])
+llm = OpenAI(model="gpt-3.5-turbo", api_key=OPENAI_API_KEY)
+# llm = OpenAI(model="gpt-4-turbo", api_key=OPENAI_API_KEY)
 
 qp = QP(
     modules={
