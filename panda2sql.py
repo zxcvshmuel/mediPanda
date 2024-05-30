@@ -71,8 +71,8 @@ pandas_prompt = PromptTemplate(pandas_prompt_str).partial_format(
 )
 pandas_output_parser = PandasInstructionParser(df)
 response_synthesis_prompt = PromptTemplate(response_synthesis_prompt_str)
-llm = OpenAI(model="gpt-3.5-turbo", api_key="sk-proj-XuIcVvPdp1vjkmhaFv3LT3BlbkFJIw32SGq9Ayfb79Rgjmef")
-# llm = OpenAI(model="gpt-4-turbo", api_key="sk-proj-XuIcVvPdp1vjkmhaFv3LT3BlbkFJIw32SGq9Ayfb79Rgjmef")
+llm = OpenAI(model="gpt-3.5-turbo", api_key=os.environ["OPENAI_API_KEY"])
+# llm = OpenAI(model="gpt-4-turbo", api_key=os.environ["OPENAI_API_KEY"])
 
 qp = QP(
     modules={
