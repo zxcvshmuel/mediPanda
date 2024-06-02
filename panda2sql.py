@@ -38,8 +38,8 @@ instruction_str = (
      \n\nthe name column is the hebrew name of the product, the engName column is the english name of the product, 
      \nthe activeIngredient column is the active ingredient of the product that present like 'T20C4' or 'T15C3' 'T' is the amount of THC and 'C' is the amount of CBD of the product, 
      \nthe treatmentForm column is the form of the product, it can be 'תפרחת' or 'שמן' or 'גליליות'. the treatmentCodeName column is contains the active ingredient and the treatment form and if it 'INDICA', 'SATIVA', 'BLEND' for example 'תפרחת INDICA T20 C4'.
-     \nthe brand column is the supplier name , in_stock is boolian that 1 = yes, 0 = no. 
-     \n the price column is the price of the product, the newItem column is a boolean represent if the product is new, 
+     \nthe brand column is the supplier name , in_stock is boolian that 1 = yes, 0 = no, so answer with 'כן, or 'לא'. 
+     \n the price column is the price of the product, the newItem column is a boolean represent if the product is new, so answer with 'כן, or 'לא'.
      \nthe CBD column is the amount of CBD in the product, the THC column is the amount of THC in the product.
      4. Convert the customer question to executable Python code using Pandas that represent the meaning of the customer question.\n
      5. The final line of code should be a Python expression that can be called with the `eval()` function.\n
